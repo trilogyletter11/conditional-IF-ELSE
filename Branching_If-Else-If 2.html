@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percabangan IF/ELSE</title>
+  </head>
+  <body>
+    <h3>Menentukan Angka Bulan</h3>
+    <script>
+      let month = prompt("Inputkan angka:");
+      let monthName = "";
+
+      if (month == 1) {
+        monthName = "Januari";
+      } else if (month == 2) {
+        monthName = "Februari";
+      } else if (month == 3) {
+        monthName = "Maret";
+      } else if (month == 4) {
+        monthName = "April";
+      } else if (month == 5) {
+        monthName = "Mai";
+      } else if (month == 6) {
+        monthName = "Juni";
+      } else if (month == 7) {
+        monthName = "Juli";
+      } else if (month == 8) {
+        monthName = "Agustus";
+      } else if (month == 9) {
+        monthName = "September";
+      } else if (month == 10) {
+        monthName = "Oktober";
+      } else if (month == 11) {
+        monthName = "November";
+      } else if (month == 12) {
+        monthName = "Desember";
+      } else {
+        monthName = "Bulan tidak valid";
+      }
+      console.log(monthName);
+      document.write(`<p>Angka yang anda masukkan: ${monthName}</p>`);
+    </script>
+  </body>
+</html>

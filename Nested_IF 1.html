@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScriptElseStatement</title>
+  </head>
+  <h1>JavaScript Else Statement</h1>
+  <body>
+    <script>
+      var age = 15;
+      if (age < 18) {
+        document.write("<b> You are Minor. </b>");
+        document.write("<br\> Not Eligible to Work ");
+      } else {
+        if (age >= 18 && age <= 60) {
+          document.write("<b> You are Eligible to Work. </b>");
+          document.write("<br\> Please fill in your details and apply ");
+        } else {
+          document.write(
+            "<b> You are too old to work as per the Government rules </b>"
+          );
+          document.write("<br\> Please Collect your pension!");
+        }
+      }
+    </script>
+  </body>
+</html>
