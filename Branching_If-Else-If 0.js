@@ -10,4 +10,4 @@ else if (nilai >= 40) grade = "D";
 else if (nilai >= 30) grade = "E";
 else grade = "F";
 
-document.write(`<p>Grade anda: ${grade}</p>`);
+document.write(`<p>Grade siswa: ${grade}</p>`);

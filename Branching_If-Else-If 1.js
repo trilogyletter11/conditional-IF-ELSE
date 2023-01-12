@@ -18,4 +18,4 @@ if (nilai >= 90) {
 } else {
   grade = "F";
 }
-document.write(`<p>Grade anda: ${grade}</p>`);
+document.write(`<p>Grade siswa: ${grade}</p>`);

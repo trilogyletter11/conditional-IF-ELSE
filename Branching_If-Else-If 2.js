@@ -26,7 +26,7 @@ if (month == 1) {
 } else if (month == 12) {
   monthName = "Bulan Desember";
 } else {
-  monthName = "Angka tidak valid";
+  monthName = "Tidak valid";
 }
 console.log(monthName);
 document.write(`<p>Angka yang anda masukkan: ${monthName}</p>`);
